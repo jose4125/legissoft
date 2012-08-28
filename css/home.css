@@ -1,0 +1,102 @@
+/* ------ etiquetas ----*/
+h2
+{
+	font-family: Georgia;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 10px 0px 0px 340px;
+	width: 450px;
+}
+
+/* ------ id ----*/
+
+#adquirir
+{
+	background-color: #E4E4E4;
+	background-image: url("../img/legissoft-adquirir.jpg");
+	background-repeat: no-repeat;
+	border-top: #fff dashed 1px;
+	height: 268px;
+	width: 950px;
+}
+#adquirir p
+{
+	width: 590px;
+	margin: 5px 0px 0px 340px;
+}
+#adquirir ul
+{
+	width: 560px;
+	margin: 10px 0px 0px 330px;
+}
+#demostracion
+{
+	background-color: #96BE0F;
+	border: #fff dashed 1px;
+	height: 60px;
+	margin-bottom: 13px;
+	margin-top: -6px;
+	padding: 0px;
+	widows: 919px;
+}
+#demostracion p
+{
+	color:#fff;
+	font-family: Georgia;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 0px;
+	text-align: center;
+}
+#modulos h4
+{
+	font-family: Georgia;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 20px 0px 0px 0px;
+}
+#modulos img
+{
+	margin-left: 16px;
+}
+#modulos li
+{
+	background-image: url("../img/fondo-modulos.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 276px;
+	margin-left: -4px;
+	vertical-align: top;
+	width: 189px;
+}
+#modulos ul
+{
+	list-style: none;
+	padding: 0px;
+}
+#modulos .textoBtn
+{
+	color: #2677B6;
+	display: block;
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: normal;
+	padding: 5px 0px 0px 12px;
+	text-decoration: none;
+	width: 175px;
+}
+#modulos  .tituloBtn
+{
+	color: #fff;
+	display: block;
+	font-family: Georgia;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	padding: 7px 0px 16px 20px;
+	text-decoration: none;
+}

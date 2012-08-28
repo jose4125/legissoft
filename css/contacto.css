@@ -1,0 +1,100 @@
+/* ------ etiquetas ----*/
+
+/* ------ id ----*/
+
+#contContacto h4
+{
+	font-family: Georgia;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 20px 0px 0px 0px;
+}
+#contContacto input
+{
+	border: #4898D9 solid 1px;
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	height: 25px;
+	vertical-align: top;
+	width: 200px;
+}
+#contContacto label
+{
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	height: 25px;
+	line-height: 25px;
+	vertical-align: top;
+	width: 30%;
+}
+#contContacto li
+{
+	display:inline-block;
+	margin-bottom: 25px;
+	vertical-align: top;
+	width: 300px;
+}
+#contContacto ul
+{
+	padding-left:20px;
+	position: relative;
+}
+#contContacto #comentario
+{
+	border: #4898D9 solid 1px;
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	height: 68px;
+	vertical-align: top;
+	width:573px;
+}
+#contContacto #enviar
+{
+	background-image: url("../img/fondo-btn.jpg");
+	background-repeat: repeat-x;
+	color: #fff;
+	display: block;
+	font-family: Georgia;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	height: 30px;
+	left: 840px;
+	position: absolute;
+	top: 147px;
+	width: 80px;
+}
+#contContacto #enviar:hover
+{
+	background-position: bottom;
+}
+#contContacto #lbComentario
+{
+	width: 10%;
+}
+#contContacto #liComentario
+{
+	width: 900px;
+	margin: 0;
+}
+#demostracion p
+{
+	color:#fff;
+	font-family: Georgia;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 0px;
+	text-align: center;
+}

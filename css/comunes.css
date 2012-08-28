@@ -1,0 +1,454 @@
+/* ------ etiquetas ----*/
+*
+{
+	margin: 0px:
+	padding: 0px;
+}
+body
+{
+	background-image: url("../img/fondo.jpg");
+	background-repeat: repeat-x;
+	color: #2677B6;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+footer
+{
+	background-image: url("../img/fondo-footer.jpg");
+	background-repeat: repeat-x;
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 13px;
+}
+footer article
+{
+	display: inline-block;
+	vertical-align: top;
+}
+footer p
+{
+	margin: 0px;
+}
+nav
+{
+	height:30px;
+	margin-bottom: 1.3em;
+	margin-top: 3px;
+}
+nav ul
+{
+	color: #fff;
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	list-style: none;
+	vertical-align: top;
+	
+}
+nav ul li
+{
+	margin-right: -0.22em;
+	border-right: #fff solid 1px;
+	
+}
+nav ul li a, nav ul li a:visited  
+{
+	background-image:url("../img/fondo-btn.jpg");
+	background-repeat: repeat-x;
+	color: #fff;
+	display: inline-block;
+	line-height: 30px;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+nav ul li a:hover, .itemMenuActual
+{
+	background-position: bottom;
+	background-repeat: repeat-x;
+	color: #fff;
+}
+h1
+{
+	background-image: url("../img/logo-legissoft.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 84px;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 209px;
+}
+h1 span
+{
+	display: none;
+}
+h3
+{
+	background-repeat: no-repeat;
+	color: #fff;
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: normal;
+	height: 72px;
+	line-height: 0.9em;
+	margin-top: 0.4em;
+	padding-left: 3.5em;
+	padding-top: 0.2em;
+	vertical-align: top;
+	width: 457px;
+}
+h3 span
+{
+	font-size: 24px;
+}
+/* ------ id ----*/
+#acercaDe
+{
+	border-right: #999 dotted 1px;
+	padding: 12px 9px 0px 9px;
+	width: 225px;
+}
+#acercaDe p
+{
+	line-height: 1.7em;
+}
+#advertencia
+{
+	background-image:url("../img/legis-advertencia.jpg");
+	display: inline-block;
+	height: 52px;
+	margin-left: 0.8em;
+	vertical-align: top;
+	width: 752px;
+}
+#advertencia p
+{
+
+	font-family: Georgia;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	height: 52px;
+	width: 752px;
+}
+#fooDocs
+{
+	background-color: #5E9AC9;
+	display: none;
+	left: 75px;
+	list-style: none;
+	padding: 0px;
+	position: absolute;
+	bottom: 10px;
+}
+#fooDocs li
+{
+	background-color: #5E9AC9;
+	border-bottom: #fff dashed 1px;
+	list-style: none;
+}
+#general
+{
+	margin: 0 auto;
+	width: 950px;
+}
+#info
+{
+	padding: 12px 9px 0px 9px;
+	width: 245px;
+	line-height: 1.9em;
+}
+#info a
+{
+	color: #2677B6;
+	text-decoration:none;
+}
+#info a:hover
+{
+	color: #96BE0F;
+}
+#legis
+{
+	margin: 9px; 
+}
+#legis #advertencia p
+{
+	background-image: none;
+	color: #2677B6;
+	font-family: Georgia;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	height: 35px;
+	margin-left: 4.5em;
+	margin-top: 0.7em;
+	text-align: center;
+	width: 680px;
+}
+#legis p
+{
+	background-image:url("../img/logo-legis.jpg");
+	background-position: center 18px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	color: #333;
+	font-family: Georgia;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	height: 60px;
+	vertical-align: top;
+	width: 55px;
+}
+#legis span
+{
+	display: none; 
+}
+#mapa
+{
+	border-right: #999 dotted 1px;
+	line-height: 1.6em;
+	padding: 12px 9px 0px 9px;
+	position: relative;
+	width: 412px;
+	
+}
+#mapa a
+{
+	color: #2677B6;
+	text-decoration:none;
+}
+#mapa a:hover
+{
+	color: #96BE0F;
+}
+#mapa #fooDocs a
+{
+	color: #fff;
+	display: block;
+	padding: 5px;
+	transition:background 0.5s ease-out;
+	behavior: url(PIE.htc);
+	behavior: url(ie-css3.htc);
+}
+#mapa #fooDocs a:hover
+{
+	background-color: #96BE0F;
+}
+#navContenido li
+{
+	display: inline-block;
+}
+#navDescargas
+{
+	margin-left: 148px;
+	position: relative;
+}
+#navDescargas li
+{
+	border: 0px;
+}
+#navDescargas li a
+{
+	background-image:url("../img/fondo-btn-des.jpg");
+	background-repeat: repeat-x;
+}
+#navDocs
+{
+	background-color: #5E9AC9;
+	display: none;
+	list-style: none;
+	position: absolute;
+	width: 248px;
+	z-index: 2;
+}
+#navDocs li
+{
+	width: 248px;
+	border-bottom: #fff dashed 1px;
+}
+#navDocs li a
+{
+	background-image: url("../img/doc.png");
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	display: block;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 5px 5px 5px 40px;
+	-webkit-transition:background 0.5s ease-out;
+	-moz-transition:background 0.5s ease-out;
+	-o-transition:background 0.5s ease-out;
+	-ms-transition:background 0.5s ease-out;
+	transition:background 0.5s ease-out;
+	behavior: url(PIE.htc);
+	behavior: url(ie-css3.htc);
+}
+#navDocs li a:hover
+{
+	background-color: #96BE0F;
+}
+#navModulos
+{
+	background-color: #5E9AC9;
+	display: none;
+	list-style: none;
+	position: absolute;
+	width: 162px;
+	z-index: 2;
+}
+#navModulos li
+{
+	width: 162px;
+	border-bottom: #fff dashed 1px;
+	border-right: 0px;
+}
+#navModulos li a
+{
+	background-image: none;
+	display: block;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 5px 5px 5px 10px;
+	-webkit-transition:background 0.5s ease-out;
+	-moz-transition:background 0.5s ease-out;
+	-o-transition:background 0.5s ease-out;
+	-ms-transition:background 0.5s ease-out;
+	transition:background 0.5s ease-out;
+	behavior: url(PIE.htc);
+	behavior: url(ie-css3.htc);
+}
+#navModulos li a:hover
+{
+	background-color: #96BE0F;
+}
+#navSiganos{
+	border: #4898D9 dashed 1px;
+	height: 30px;
+	margin-left: 5px;
+	padding: 0px 7px 0px 7px;
+}
+#navSiganos li
+{
+	border: 0px;
+	color: #2677B6;
+	display: inline-block;
+	
+}
+#navSiganos li:first-child
+{
+	height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	
+}
+#navSiganos li span
+{
+	display: none;
+}
+#navSiganos li #facebook
+{
+	background-image:url("../img/facebook-btn.jpg");
+	background-repeat: no-repeat;
+	height: 22px;
+	margin: 5px 4px 0px 4px;
+	padding: 0px;
+	width: 21px; 
+}
+#navSiganos li #twitter
+{
+	background-image:url("../img/twitter-btn.jpg");
+	background-repeat: no-repeat;
+	height: 22px;
+	margin:5px 0px 0px 0px;
+	padding: 0px;
+	width: 21px;
+}
+#navSoluciones
+{
+	background-color: #5E9AC9;
+	display: none;
+	list-style: none;
+	position: absolute;
+	width: 162px;
+	z-index: 2;
+}
+#navSoluciones li
+{
+	width: 162px;
+	border-bottom: #fff dashed 1px;
+	border-right: 0px;
+}
+#navSoluciones li a
+{
+	background-image: none;
+	display: block;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 5px 5px 5px 10px;
+	-webkit-transition:background 0.5s ease-out;
+	-moz-transition:background 0.5s ease-out;
+	-o-transition:background 0.5s ease-out;
+	-ms-transition:background 0.5s ease-out;
+	transition:background 0.5s ease-out;
+	behavior: url(PIE.htc);
+	behavior: url(ie-css3.htc);
+}
+#navSoluciones li a:hover
+{
+	background-color: #96BE0F;
+}
+#share
+{
+	border: #2677B6 dashed 1px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 0px 7px 0px 7px;
+	width: 919px;
+}
+#share p
+{
+	display: inline-block;
+	margin: 0px;
+	line-height: 40px;
+	vertical-align: top;
+}
+#share #contShare
+{
+	display: inline-block;
+	margin: 0.6em 0 0 2em;
+	vertical-align: top;
+}
+
+/* ------ clases----*/
+.franjaVerde
+{
+	background-image:url("../img/franja-footer.jpg");
+	height: 3px;
+	width: 950px;
+}
+.trinagulo
+{
+	background-color: none;
+	background-image: url("../img/triangulo.jpg");
+	display: none;
+	height: 7px;
+	margin-left: 10px;
+	width: 20px;
+}
